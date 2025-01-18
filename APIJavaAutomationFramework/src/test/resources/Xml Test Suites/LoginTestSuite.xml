@@ -6,5 +6,5 @@
 			<class name="com.api.test.LoginTest">
 			</class>
 		</classes>
-	</test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+	</test>
+</suite>
