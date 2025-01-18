@@ -2,11 +2,20 @@ package com.api.base;
 
 import static io.restassured.RestAssured.*;
 
+import com.api.filters.LoggingFilter;
+
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class BaseService {
+	/**
+	 * Executed only once
+	 */
+	static {
+        RestAssured.filters(new LoggingFilter());
+    }
 	/**
 	 * Class contains common properties and method
 	 */
