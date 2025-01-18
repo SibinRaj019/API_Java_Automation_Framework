@@ -36,7 +36,7 @@ jobs:
       with:
        name: Logs
        path: APIJavaAutomationFramework/logs/
-
+       
     - name: Publish API Test Automation Report
       if: always()
       uses: dorny/test-reporter@v1
@@ -44,4 +44,3 @@ jobs:
         name: TestNG Results
         path: APIJavaAutomationFramework/target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
-    
