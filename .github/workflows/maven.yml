@@ -35,13 +35,13 @@ jobs:
       uses: actions/upload-artifact@v4.6.0
       with:
        name: Logs
-       path: APITestArtifact/logs/
+       path: APIJavaAutomationFramework/logs/
 
     - name: Publish API Test Automation Report
       if: always()
       uses: dorny/test-reporter@v1
       with:
         name: TestNG Results
-        path: APITestArtifact/target/surefire-reports/junitreports/TEST-*.xml
+        path: APIJavaAutomationFramework/target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
     
