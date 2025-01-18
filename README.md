@@ -1,13 +1,17 @@
 # API_Java_Automation_Framework
-API Automation Framework using RestAssured
 
-Swagger Documentation: <a href"http://64.227.160.186:8080/swagger-ui/index.html"></a>
-  Login and SignUp functionality of Authentication Service is used for automation
+API Automation Framework using **RestAssured**
 
-Implementation done so far,
-  Implementing Service Object Model patterns for maintainability
-  Creating reliable API tests using RestAssured
-  GitHub Actions integration for continuous API testing
-  Custom listeners for enhanced test reporting
-  Request/response interceptors and filters
-  Advanced logging techniques
+### Swagger Documentation:
+[API Swagger UI](http://64.227.160.186:8080/swagger-ui/index.html)
+
+This framework automates the **Login** and **SignUp** functionalities of the Authentication Service.
+
+### Implementation Done So Far:
+
+- Implemented **Service Object Model** patterns for better maintainability.
+- Created reliable **API tests** using **RestAssured**.
+- Integrated **GitHub Actions** for continuous API testing.
+- Developed **custom listeners** for enhanced test reporting.
+- Added **request/response interceptors** and filters.
+- Incorporated **advanced logging techniques** for better debugging and analysis.
